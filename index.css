@@ -1,0 +1,31 @@
+.jumbotron {
+    background-color: #f4511e; /* Orange */
+    color: #ffffff;
+    padding: 100px 25px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6; /* Grey */
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.logo{
+    color: #f4511e; /* Orange */
+    font-size: 200px;
+}
+
+.logo-small {
+    color: #f4511e; /* Orange */
+    font-size: 50px;
+}
+
+/* questo stile viene applicato solo se viene rispettata la condizione nella parentesi */
+@media screen and (max-width:768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
